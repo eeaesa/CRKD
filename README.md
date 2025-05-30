@@ -94,4 +94,4 @@ sh scripts/train.sh
 ## Acknowledgement
 
 This code is adapted from [UniMatch](https://github.com/LiheYoung/UniMatch), [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) and [CrossMatch](https://github.com/AiEson/CrossMatch/tree/main).
-We thank Xiangde Luo and Lihe Yang for their elegant and efficient code base.
+We thank Xiangde Luo, Lihe Yang and Bin Zhao for their elegant and efficient code base.
