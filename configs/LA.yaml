@@ -1,0 +1,20 @@
+data:
+  dataset: LA
+  root_path: your datapath
+  patch_size: [112, 112, 80] # [112, 112, 80]
+  in_chns: 1
+
+train:
+  num_classes: 2
+  base_lr: 0.01
+  batch_size: 2
+  epochs: 300
+  max_iterations: 9000
+  optimizer: SGD # [SGD, Adam, AdamW]
+
+semi:
+  conf_thresh: 0.75
+  ema_decay: 0.99
+  consistency_type: mse
+  consistency: 0.1
+  consistency_rampup: 200.0

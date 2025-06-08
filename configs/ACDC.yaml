@@ -1,0 +1,19 @@
+data:
+  dataset: ACDC
+  root_path: your datapath
+  crop_size: 256
+  in_chns: 1
+
+train:
+  num_classes: 4
+  base_lr: 0.01
+  batch_size: 12
+  epochs: 300
+  max_iterations: 20000
+
+semi:
+  conf_thresh: 0.8
+  ema_decay: 0.99
+  consistency_type: mse
+  consistency: 0.1
+  consistency_rampup: 200.0
