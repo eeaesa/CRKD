@@ -37,7 +37,7 @@ python train_2d_ACDC_CRKD.py --config configs/acdc.yaml --labeled_num 3
 ```
 train on LA use 4-case label ratio
 ```
-python train_2d_ACDC_CRKD.py --config configs/LA.yaml --label_num 4
+python train_3d_CRKD.py --config configs/LA.yaml --label_num 4
 ```
 ### sh train
 
